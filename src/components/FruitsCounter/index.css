@@ -1,0 +1,64 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+}
+
+.fruitsContainer {
+  background-color: #ffd569;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+}
+
+.fruitContainer {
+  background-color: #ffffff;
+  width: 600px;
+  margin: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: #000000;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.fruits {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.fruit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 40px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 300;
+  height: 30px;
+  width: 80px;
+  border-radius: 3px;
+  border: none;
+  font-size: 12px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  outline: none;
+}
